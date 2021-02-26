@@ -1,0 +1,11 @@
+{
+    "name": "TextReplacer",
+    "pluginInfraVersion": 2,
+    "source": [
+        "textReplace.6.js",
+        "main.6.js",
+        "dashboards.6.js"
+    ],
+    "style": [],
+    "isEnabled": false
+}
