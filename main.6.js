@@ -39,5 +39,5 @@ const replaceText = () => {
 }
 
 prism.on('dashboardloaded',(event, args) =>{
-    prism.activeDashboard.on('widgetrender',replaceText)
+    prism.activeDashboard.on('initialized',replaceText)
 });
