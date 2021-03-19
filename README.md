@@ -14,11 +14,11 @@ Set the pivot table value to max of this rank value and then this can be used to
 
 ## Setup:
 * Modification of dashboards.6.js. 
-..* Add dashboard and widget information to dashboardConfigs object
-..* Each dashboard should be used as a key in dashboardConfigs, with value an array of widget objects
-..* Each widget object should have widget_id and a dictionary object
-..* Each dictionary object should have the integer value as a key with a translation object
-..* The translation object maps the new text value to the "translation" key
+  * Add dashboard and widget information to dashboardConfigs object
+  * Each dashboard should be used as a key in dashboardConfigs, with value an array of widget objects
+  * Each widget object should have widget_id and a dictionary object
+  * Each dictionary object should have the integer value as a key with a translation object
+  * The translation object maps the new text value to the "translation" key
 
 A visual representation:
 
