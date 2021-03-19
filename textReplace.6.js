@@ -1,7 +1,7 @@
 /*
 Author: Kevin Matthews
 email: kevin@friartuck.net
-Configured for Sisense version 8.2.4.10095
+Configured for Sisense version 8.2.4
 */
 
 export function makeSwapData(widget_ID,lookupLibrary){
@@ -14,8 +14,6 @@ export function makeSwapData(widget_ID,lookupLibrary){
           let innerVal = parseInt(cell.innerHTML);
           if (!isNaN(innerVal) & (innerVal in widget_dictionary)){
             cell.innerHTML = widget_dictionary[innerVal].translation;
-          } else{
-            //console.error("TextReplace: Lookup error ", innerVal)
           }
         }
       );
