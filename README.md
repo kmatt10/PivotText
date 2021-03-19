@@ -11,10 +11,14 @@ Set the pivot table value to max of this rank value and then this can be used to
 NOTE: Exporting by any native Sisense means **will not preserve the mapping** due to the way Sisense produces exports
 
 Setup:
-	Modification of dashboards.6.js. Add dashboard and widget information to dashboardConfigs object
+	Modification of dashboards.6.js. Add dashboard and widget information to dashboardConfigs object.
+
 	Each dashboard should be used as a key in dashboardConfigs, with value an array of Widget objects
+	
 	Each widget object should have the widget_id and a dictionary object
+	
 	Each dictionary object should have the integer value as a key with a translation object
+	
 	The translation object maps the new text value to the "translation" key
 
 For a visual representation is laid out as:
