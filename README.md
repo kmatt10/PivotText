@@ -1,4 +1,4 @@
-PivotTableText Sisense Add-on for adding text values to pivot tables.
+PivotText Sisense Add-on for adding text values to pivot tables.
 
 Setup requires modification of dashboards.6.js
 
@@ -6,7 +6,7 @@ Replacement should be integer values mapped to the desired text values. This key
 
 For example, sorting your text values and then numbering with rank() to give each value a specific index
 Then "1": "apples", "2": "Cake", "3": "Oranges"
-Set the pivot table up to take max of this rank value per entry and then this can be used to add those corresponding text values in place of the keys
+Set the pivot table value to max of this rank value and then this can be used to add those corresponding text values in place of the keys
 
 NOTE: Exporting by any native Sisense means **will not preserve the mapping** due to the way Sisense produces exports
 
@@ -19,12 +19,15 @@ Setup:
 
 	For a visual representation is laid out as:
 		dashboardConfigs {
-			dashboard_id: [
+			dashboard_id: 
+			[
 				{
 					widget_id: String
-					dictionary: {
+					dictionary: 
+					{
 						oldValue: {translation: newValue}
 					}
 				},
-				...],
+				...
+			],
 			...}
