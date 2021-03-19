@@ -8,6 +8,8 @@ For example, sorting your text values and then numbering with rank() to give eac
 Then "1": "apples", "2": "Cake", "3": "Oranges"
 Set the pivot table value to max of this rank value and then this can be used to add those corresponding text values in place of the keys
 
+Could also be used for categorical data which must be calculated
+
 #### NOTE: Exporting by any native Sisense means *will not preserve the mapping* due to the way Sisense produces exports
 
 ---
@@ -36,10 +38,10 @@ A visual representation:
 				},
 				...
 			],
-			"FRx6H4uIRoa0F5jIhVig": 
+			"48656c6c6f20576f726c6421": 
 			[
 				{ 
-					"widget_id": "1234567890",
+					"widget_id": "476f20537075727320476f21",
 					"dictionary": 
 					{
 						"42": {"translation": "oranges"},
@@ -48,7 +50,7 @@ A visual representation:
 				},
 
 				{ 
-					"widget_id": "0987654321",
+					"widget_id": "123456789abcdef",
 					"dictionary": 
 					{
 						"1": {"translation": "apples"},
