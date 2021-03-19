@@ -16,9 +16,10 @@ Setup:
 	Each widget object should have the widget_id and a dictionary object
 	Each dictionary object should have the integer value as a key with a translation object
 	The translation object maps the new text value to the "translation" key
-	For a visual representation is laid out as:
 
-	
+For a visual representation is laid out as:
+
+
 		dashboardConfigs {
 			dashboard_id: 
 			[
