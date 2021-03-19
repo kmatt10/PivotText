@@ -23,7 +23,8 @@ Set the pivot table value to max of this rank value and then this can be used to
 A visual representation:
 
 
-		dashboardConfigs = {
+		dashboardConfigs = 
+		{
 			dashboard_id: 
 			[
 				{
@@ -35,6 +36,27 @@ A visual representation:
 				},
 				...
 			],
-			...}
+			"FRx6H4uIRoa0F5jIhVig": 
+			[
+				{ 
+					"widget_id": "1234567890",
+					"dictionary": 
+					{
+						"42": {"translation": "oranges"},
+						"84": {"translation": "Bananas"}
+					}
+				},
+
+				{ 
+					"widget_id": "0987654321",
+					"dictionary": 
+					{
+						"1": {"translation": "apples"},
+						"6": {"translation": "pears"},
+						"7": {"translation": "chairs"}
+					}
+				}
+			]
+		}
 
 Example can also be found in dashboards.6.js
